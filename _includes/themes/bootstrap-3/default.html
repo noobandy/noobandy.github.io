@@ -63,12 +63,22 @@
             {% assign group = 'navigation' %}
             {% include JB/pages_list %}
           </ul>
-          <form class="navbar-form navbar-right" role="search">
+         <!-- <form class="navbar-form navbar-right" role="search">
             <div class="form-group">
               <input type="text" class="form-control" placeholder="Search">
             </div>
             <button type="submit" class="btn btn-default">Submit</button>
-          </form>
+          </form> -->
+		 
+    <form class="navbar-form navbar-right" role="search" action="http://www.google.com/cse" id="cse-search-box" >
+      <div>
+        <input type="hidden" name="cx" value="010828095799191481044:yhqj1qfs45a" />
+        <input type="hidden" name="ie" value="UTF-8" />
+        <input type="text" name="q" width="100%"/>
+        <input type="submit" name="sa" value="Search" />
+      </div>
+    </form>
+    <script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=cse-search-box&amp;lang=en"></script>
         </div><!-- /.navbar-collapse -->
       </nav>
 
