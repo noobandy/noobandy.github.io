@@ -8,7 +8,8 @@ summary: Markdown syntax.
 {% include JB/setup %}
 
 ##First Post Using markdown syntax
-
+####Index.html
+{% gist c695d623ccc6073bc3ce %}
 <table>
 <thead>
 <tr>
