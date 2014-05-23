@@ -1,14 +1,16 @@
 ---
 layout: post
 category : lessons
-tagline: "Supporting tagline"
+tagline: ""
 tags : [intro, beginner, markdown, tutorial]
 summary: Markdown syntax.
+published: false
 ---
 {% include JB/setup %}
 
 ##First Post Using markdown syntax
-
+#### Gist embed
+{% gist noobandy/c695d623ccc6073bc3ce %}
 <table>
 <thead>
 <tr>
