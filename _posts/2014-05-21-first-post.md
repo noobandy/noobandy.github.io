@@ -4,7 +4,7 @@ category : lessons
 tagline: ""
 tags : [intro, beginner, markdown, tutorial]
 excerpt: Markdown syntax.
-published: true
+published: false
 ---
 {% include JB/setup %}
 
@@ -25,7 +25,7 @@ published: true
 </tbody>
 </table>
 ### pre formatted code: `indent with 4 spaces or a tab`
-{% highlight html %}	
+
 	<table>
 		<thead>
 			<tr>
@@ -40,6 +40,5 @@ published: true
 			</tr>
 		</tbody>
 	</table>
-{% endhighlight %}
 
 for more Read [Markdown Basics](https://daringfireball.net/projects/markdown/basics).
