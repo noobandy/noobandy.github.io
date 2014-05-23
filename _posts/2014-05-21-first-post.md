@@ -3,8 +3,8 @@ layout: post
 category : lessons
 tagline: ""
 tags : [intro, beginner, markdown, tutorial]
-summary: Markdown syntax.
-published: false
+excerpt: Markdown syntax.
+published: true
 ---
 {% include JB/setup %}
 
@@ -25,6 +25,7 @@ published: false
 </tbody>
 </table>
 ### pre formatted code: `indent with 4 spaces or a tab`
+{% highlight html %}	
 	<table>
 		<thead>
 			<tr>
@@ -39,5 +40,6 @@ published: false
 			</tr>
 		</tbody>
 	</table>
+{% endhighlight %}
 
 for more Read [Markdown Basics](https://daringfireball.net/projects/markdown/basics).
