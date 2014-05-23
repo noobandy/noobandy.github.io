@@ -25,21 +25,20 @@ published: true
 </tbody>
 </table>
 ### pre formatted code: `indent with 4 spaces or a tab`
-{% highlight html %}	
-	<table>
-		<thead>
-			<tr>
-				<td>Char</td>
-				<td>Usage</td>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td>#</td>
-				<td>Same as h1 in HTML </td>
-			</tr>
-		</tbody>
-	</table>
-{% endhighlight %}
+``` html
+<table>
+	<thead>
+		<tr>
+			<td>Char</td>
+			<td>Usage</td>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>#</td>
+			<td>Same as h1 in HTML </td>
+		</tr>
+	</tbody>
+</table>```
 
 for more Read [Markdown Basics](https://daringfireball.net/projects/markdown/basics).
