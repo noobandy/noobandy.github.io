@@ -4,7 +4,7 @@ category : lessons
 tagline: ""
 tags : [intro, beginner, markdown, tutorial]
 excerpt: Markdown syntax.
-published: false
+published: true
 ---
 {% include JB/setup %}
 
