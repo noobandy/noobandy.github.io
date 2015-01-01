@@ -10,13 +10,13 @@ published: false
 ####What are we building?
 **Discussion Widget** is a disqus like widget which we will use in one of our project named **Society Portal**.
 end result will look like screenshots below.
-- **Comment List**
+1 **Comment List**
 <img class="img-responsive" src="{{BASE_PATH}}/assets/media/Discussion-Widget-Comment-List.png">
-- **Comment Edit Form**
+2 **Comment Edit Form**
 <img class="img-responsive" src="{{BASE_PATH}}/assets/media/Discussion-Widget-Comment-Edit.png">
-- **Reply form**
+3 **Reply form**
 <img class="img-responsive" src="{{BASE_PATH}}/assets/media/Discussion-Widget-Comment-Reply.png">
-- **On hover of up vote count pop up with name of user should be visible**
+4 **On hover of up vote count pop up with name of user should be visible**
 <img class="img-responsive" src="{{BASE_PATH}}/assets/media/Discussion-Widget-Upvote-Popover.png">
-- **After upvote thumbs up icon's color should change to gree**
+5 **After upvote thumbs up icon's color should change to gree**
 <img class="img-responsive" src="{{BASE_PATH}}/assets/media/Discussion-Widget-UpVote-Voted.png">
