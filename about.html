@@ -7,23 +7,23 @@ group: navigation
 {% include JB/setup %}
 
 <div class="row">
-	<div class="col-lg-6">
-            <h1>{{site.author.name}}</h1>
-            <p class="lead">{{site.author.about}}</p>
+  <div class="col-lg-6">
+    <h1>{{site.author.name}}</h1>
+    <p class="lead">{{site.author.about}}</p>
+  </div>
+	<div class="col-lg-6" style="padding: 15px 15px 0 15px;">
+    <div class="well sponsor">
+      <a href="{{ HOME_PATH }}" rel="nofollow" target="_blank">
+        <span style="float: left; margin-right: 15px;">
+          <img src="{{ ASSET_PATH }}readable/img/{{ site.author.dpfile }}" width="175" height="135">
+        </span>
+      </a>
+      <a href="#">
+        <h4 style="margin-bottom: 0.4em;">{{site.author.name}}</h4>
+          <div class="clearfix">
+            <p>Web Design, Coding, Mobile App Development &amp; More.</p>
           </div>
-		    <div class="col-lg-6" style="padding: 15px 15px 0 15px;">
-            <div class="well sponsor">
-              <a href="{{ HOME_PATH }}" rel="nofollow" target="_blank">
-                <span style="float: left; margin-right: 15px;">
-                  <img src="{{ ASSET_PATH }}readable/img/{{ site.author.dpfile }}" width="175" height="135">
-                </span>
-              </a>
-              <a href="#">
-                <h4 style="margin-bottom: 0.4em;">{{site.author.name}}</h4>
-                <div class="clearfix">
-                  <p>Web Design, Coding, Mobile App Development &amp; More.</p>
-                </div>
-              </a>
-            </div>
-          </div>
+      </a>
+    </div>
+  </div>
 </div>
