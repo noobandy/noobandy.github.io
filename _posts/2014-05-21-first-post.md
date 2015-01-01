@@ -1,44 +1,18 @@
 ---
 layout: post
-category : lessons
+category: lessons
 tagline: ""
-tags : [intro, beginner, markdown, tutorial]
+tags: 
+  - intro
+  - beginner
+  - markdown
+  - tutorial
 excerpt: Markdown syntax.
 published: true
 ---
+
 {% include JB/setup %}
 
-##First Post Using markdown syntax
+##Discussion Plugin for society portal.
 #### Gist embed
-{% gist noobandy/c695d623ccc6073bc3ce %}
-<table>
-<thead>
-<tr>
-<td>Char</td>
-<td>Usage</td>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>#</td><td>Same as h1 in HTML </td>
-</tr>
-</tbody>
-</table>
-### pre formatted code: `indent with 4 spaces or a tab`
-
-	<table>
-		<thead>
-			<tr>
-				<td>Char</td>
-				<td>Usage</td>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td>#</td>
-				<td>Same as h1 in HTML </td>
-			</tr>
-		</tbody>
-	</table>
-
-for more Read [Markdown Basics](https://daringfireball.net/projects/markdown/basics).
+{% gist noobandy/b6c99d8c4c2bfa8b8afa %}
